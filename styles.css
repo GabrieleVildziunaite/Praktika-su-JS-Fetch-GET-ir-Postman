@@ -1,0 +1,141 @@
+
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(209, 206, 206);
+    padding: 15px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blue-wrapper {
+    background-color: rgba(36, 174, 216, 0.924);
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.profile-wrapper {
+    width: 30%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.copy {
+    font-size: xx-small;
+}
+
+.experience-wrapper {
+    background-color: whitesmoke;
+    width: 70%;
+    border-radius: 25px; 
+}
+
+.exp-wrp {
+    margin: 45px 30px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 180px;
+    margin-top: 50px;
+}
+
+p {
+    font-size: small;
+    margin-top: 8px;
+}
+
+.experience-blocks {
+    margin-bottom: 30px;
+}
+
+.experience-block {
+margin-top: 30px;
+display: flex;
+gap: 30px;
+}
+
+.left-block {
+width: 30%;
+text-align: end;
+
+}
+
+.grey {
+    color: rgb(153, 151, 151); 
+}
+
+.rigth-block {
+width: 70%;
+
+}
+
+.skill {
+display: flex;
+flex-direction: column;
+}
+
+.skill-bar-border{
+width: 100%;
+height: 5px;
+border: 1px solid rgba(36, 174, 216, 0.924);
+border-radius: 20px;
+padding: 2px;
+}
+
+.skill-bar-background {
+height: 5px;
+background-color: rgba(36, 174, 216, 0.924);
+border-radius: 20px;
+}
+.skill-properties {
+display: flex;
+justify-content: space-between;
+font-size: smaller;
+margin-top: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+    .profile-wrapper {
+        width: 100%;
+    }
+    .experience-wrapper {
+        width: 100%;
+    }
+    .blue-wrapper {
+        flex-direction: column;
+    }
+    .copy {
+        color: lightblue;
+    }
+    img {
+        margin-top: 15px;
+    }
+    .left-block {
+        font-size: x-small;
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        font-size: x-large;
+    }
+    p {
+        font-size: xx-small;
+    }
+    .left-block p {
+        margin-top: 12px;
+    }
+    .left-block h5 {
+        margin-top: 2px;
+    }
+  }
